@@ -28,6 +28,9 @@
     "predictions": "nodemon src/ml/perform-prediction.ts --watch false --exec ts-node",
     "new-dash": "nodemon src/new-dashboard.ts --watch false --inspect --exec ts-node",
     "clear:babel-cache": "rimraf -rf ./node_modules/.cache/babel-loader/*",
+    "test-brands": "ts-node test-brands.ts",
+    "simple-test": "ts-node simple-test.ts",
+    "debug-brands": "ts-node debug-brands.ts",
     "test": "jest --verbose  --forceExit",
     "report-test": "nodemon src/reports/aggregator-pitch-report/index.ts --watch false --inspect --exec ts-node"
   },

@@ -12,3 +12,9 @@ token.json
 !.env.example
 matching
 misc/
+brandConnections.json
+brandsMapping.json
+pharmacyItems.json
+yarn.lock
+TEST_RESULTS.md
+
